@@ -37,6 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="Add"
+        android:onClick="add"
         app:layout_constraintEnd_toStartOf="@+id/btn_subtract"
         app:layout_constraintStart_toStartOf="@+id/edt_number_1"
         app:layout_constraintTop_toBottomOf="@+id/edt_number_1" />
@@ -46,6 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Subtract"
+        android:onClick="sub"
         app:layout_constraintBottom_toBottomOf="@+id/btn_add"
         app:layout_constraintEnd_toStartOf="@+id/btn_divide"
         app:layout_constraintHorizontal_bias="0.5"
@@ -58,6 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Divide"
+        android:onClick="div"
         app:layout_constraintBottom_toBottomOf="@+id/btn_subtract"
         app:layout_constraintEnd_toEndOf="@+id/edt_result"
         app:layout_constraintStart_toEndOf="@+id/btn_subtract"
